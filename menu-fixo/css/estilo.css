@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 100%;
+    min-width: 80px;
+    max-width: 80px;
+    background-color: rgb(8, 141, 112);
+    position: fixed;
+    transition: 1s;
+}
+
+nav:hover{
+    min-width: 300px;
+    transition: 1s;
+}
+
+.icone{
+    width: 35px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+li{
+    height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+li p{
+    color: azure;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+li:hover{
+    background-color: black;
+    cursor: pointer;
+}
