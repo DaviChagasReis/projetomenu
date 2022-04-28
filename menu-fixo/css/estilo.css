@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/Cyberpunk.jpg);
 }
 
 nav{
@@ -11,6 +12,8 @@ nav{
     background-color: rgb(8, 141, 112);
     position: fixed;
     transition: 1s;
+    overflow: hidden;
+    top:0;
 }
 
 nav:hover{
@@ -45,4 +48,27 @@ li p{
 li:hover{
     background-color: black;
     cursor: pointer;
+}
+
+.form{
+    width: 50%;
+    background-color:rgb(73, 80, 78);
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+
+.formbox{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
 }
